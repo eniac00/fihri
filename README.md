@@ -1,2 +1,2 @@
 # fihri
-dwm rice for quick installation
+dwm rice for quick installation (personal use)

@@ -1,0 +1,18 @@
+#!/usr/bin/expect
+
+set email [lindex $argv 0]
+set pass [lindex $argv 1]
+
+set timeout -1
+
+spawn nordvpn login
+
+expect -exact "Email: " {send -- "$email\r"}
+expect -exact "Password: " {send -- "$pass\r"}
+
+interact
+
+
+
+
+

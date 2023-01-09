@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=dwm
+Comment=dwm altairs build
+Exec=/home/uwais/fihri/autostart
+Type=Application

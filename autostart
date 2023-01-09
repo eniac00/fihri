@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# this is just an example!
+# add your autostart stuffs here
+
+xrandr --output Virtual1 --dpi 96 --mode 1280x1024 &
+#picom -f &
+#nitrogen --restore &
+dwmblocks &
+dwm 

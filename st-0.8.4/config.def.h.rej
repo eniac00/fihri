@@ -1,0 +1,10 @@
+--- config.def.h	2021-01-29 22:40:56.451916768 +0000
++++ config.def.h	2020-06-19 10:29:45.000000000 +0100
+@@ -199,7 +199,6 @@ static Shortcut shortcuts[] = {
+ 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
+ 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
+ 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
+-	{ MODKEY,               XK_l,           copyurl,        {.i =  0} },
+ };
+ 
+ /*
